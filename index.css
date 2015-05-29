@@ -1,157 +1,141 @@
 body {
-	background-color: white;
+	background-color: #2e2d2c;
 	font-family: "Ubuntu";
-	line-height: 1.3em;
 	width: 100%;
-	height: 100%;
-}
-
-.homepage {
-	background-image: url("images/achtergrond.jpg");
-	background-color: white;
-	height: 50em;
 }
 
 img {
 	max-width: 100%;
 }
 
+.homepage {
+	background-image: url("img/achtergrond.jpg");
+	background-size: cover;
+	background-color: white;
+	height: 700px;
+}
+
 .header {
-	background-color: rgba(255, 255, 255, 0.95);
-	padding: 0.8em;
-	border-bottom: 10px solid #ebe03d;
-	position: fixed;
-	width: 100%;
-	bottom: 75%;
-	top: 0%;
-	z-index: 1;
+	padding: 45px;
 }
 
 .header button {
 	border: none;
 	background: none;
-	width: 4em;
-	height: 4.6em;
-	font-family: "Sacramento";
-	font-size: 1.8em;
-	color: #6cacdf;
+	width: 150px;
+	font-family: "Dosis";
+	font-size: 30px;
+	color: #2e2d2c;
 	text-align: center;
-	line-height: 1.1em;
-}
-button:hover, .logo:hover {
-	opacity: 0.8;
-	transform: scale(1.1);
+	margin-bottom: 15px;
 }
 
-.kader img:nth-child(2n):hover {
-	transform: scale(1.1) rotate(3deg);
+.overmijknop, .portfolioknop {
+	margin-right: 45px;
 }
 
-.kader img:nth-child(2n+1):hover {
-	transform: scale(1.1) rotate(-4deg);
-}
-
-.logo {
-	float: right;
-	width: 16.5em;
-	height: 16.5em;
-	background-color: #ece68b;
-	border-radius: 50%;
-	border: 10px solid #ebe03d;
-	position: fixed;
-	top: 3%;
-	right: 4.5%;
-	bottom: 72%;
-}
-
-.logo-afbeelding {
-	display: block;
-	margin: 0 auto 0.9em auto;
-	position: relative;
-	top: 10%;
-}
-
-.naam {
-	font-family: "Sacramento";
-	font-size: 2.1em;
-	color: #6cacdf;
-	text-align: center;
-	position: relative;
-	top: 15%;
-}
-
-.kader {
-	margin: 12.5em 3em 3em 3.5em;
-	width: 65%;
-	float: left;
-}
-
-.kader img {
-	border-top: 10px solid white;
-	border-left: 10px solid white;
-	border-right: 10px solid white;
-	border-bottom: 40px solid white;
-	box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
-	margin-bottom: 1em;
-}
-
-.voorbeeld1, .voorbeeld2, .voorbeeld3 {
-	margin: 0 2em 0 0;
-}
-
-.voorbeeld5, .voorbeeld6, .voorbeeld7 {
-	margin: 0 2em 0 0;
-}
-
-.bovenste-rij, .onderste-rij {
-	display: block;
+.knoppen {
 	margin: 0 auto 0 auto;
+	width: 570px;
+	border-bottom: 2px solid #2e2d2c;
 }
 
-.sidebar {
-	margin: 23em 3.1em 0 0;
-	width: 20%;
-	background-color: white;
-	border-radius: 15px;
-	padding: 2.5em 1.2em 1.2em 1.2em;
-	float: right;
-	border: 5px ridge #f5afc2;
+.naaronderknop, .naaronderknop2 {
+	background: none;
+	border: none;
+	padding: none;
+	margin: none;
+	position: absolute;
+	bottom: 5%;
+	right: 47.5%;
+}
+
+.overmij {
+	padding: 190px 370px 185px 370px;
+	background-color: #dd3c1f;
+	position: relative;
 }
 
 h1 {
-	font-family: "Sacramento";
-	font-size: 2.5em;
-	color: #6cacdf;
+	width: 415px;
+	font-family: "Dosis";
+	font-size: 75px;
+	color: white;
+	margin: 0 auto 50px auto;
+	padding-bottom: 15px;
+	border-bottom: 4px solid white;
 	text-align: center;
-	margin-bottom: 0.5em;
 }
 
-.website {
-	background-image: url("images/hout.png");
-	overflow: auto;
+.overmij p {
+	font-size: 25px;
+	color: white;
+	line-height: 30px;
 }
+
+.portfolio {
+	width: 934px;
+	padding: 70px 0 70px 0;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+.portfolio img {
+	background-color: #dd3c1f;
+	border: 4px inset #dd3c1f;
+}
+
+.portfolio img:nth-child(2n):hover {
+	
+}
+
+.portfolio img:nth-child(2n+1):hover {
+
+}
+
+h2 {
+	width: 550px;
+	font-family: "Dosis";
+	font-size: 75px;
+	color: white;
+	margin: 0 auto 50px auto;
+	padding-bottom: 15px;
+	border-bottom: 4px solid white;
+	text-align: center;
+}
+
+.voorbeeld1, .voorbeeld2, .voorbeeld3 {
+	margin-right: 50px;
+}
+
+.voorbeeld5, .voorbeeld6, .voorbeeld7 {
+	margin-right: 50px;
+}
+
+.bovensterij {
+	margin-bottom: 50px;
+}
+
 
 footer {
 	clear: both;
-	background-color: #ebe03d;
-	padding: 0.5em;
+	background-color: #dd3c1f;
+	color: white;
+	padding: 10px;
 	text-align: center;
-	width: 98.8%;
-	height: 1.5em;
-	position: relative;
 }
 
-.naar-boven {
-	background-color: #ebe03d;
+.naarbovenknop {
+	background: none;
 	padding: none;
 	margin: none;
 	border: none;
-	position: absolute;
-	top: 10%;
-	right: 5%;
+	bottom: 2%;
+	right: 2%;
+	position: fixed;
+	display: none;
 }
 
 span {
-	color: #6cacdf;
-	margin: 0 1em 0 1em;
+	margin: 0 25px 0 25px;
 }
