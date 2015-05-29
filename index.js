@@ -1,35 +1,51 @@
 var main = function () {
   "use strict";
 
-  $(".home").click(function() {
+	$(".overmijknop").click(function() {
 		$("html, body").animate({
-			scrollTop: $(".homepage").offset().top
+			scrollTop: $(".overmij").offset().top
 		}, 1000);
 	});
 
-	$(".over-mij").click(function() {
+	$(".portfolioknop").click(function() {
 		$("html, body").animate({
-			scrollTop: $(".website").offset().top
+			scrollTop: $(".portfolio").offset().top
 		}, 1000);
 	});
 
-	$(".portfolio").click(function() {
-		$("html, body").animate({
-			scrollTop: $(".website").offset().top
-		}, 1000);
-	});
-
-	$(".contact").click(function() {
+	$(".contactknop").click(function() {
 		$("html, body").animate({
 			scrollTop: $("footer").offset().top
 		}, 1000);
 	});
 
-	$(".naar-boven").click(function() {
+	$(".naarbovenknop").click(function() {
 		$("html, body").animate({
 			scrollTop: $(".homepage").offset().top
 		}, 1000);
 	});
+
+	$(".naaronderknop").click(function() {
+		$("html, body").animate({
+			scrollTop: $(".overmij").offset().top
+		}, 1000);
+	});
+
+	$(".naaronderknop2").click(function() {
+		$("html, body").animate({
+			scrollTop: $(".portfolio").offset().top
+		}, 1000);
+	});
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop()) {
+			$(".naarbovenknop").fadeIn();
+		}
+		else {
+			$("naarbovenknop").fadeOut();
+		}
+	});
+
 }
 
 $("document").ready(main);
