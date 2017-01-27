@@ -1,4 +1,5 @@
-$(window).ready(function() {
+$(window).load(function(){
+  
 // external js: isotope.pkgd.js
 
 
