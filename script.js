@@ -1,4 +1,7 @@
+$(window).load(function(){
+  
 // external js: isotope.pkgd.js
+
 
 // init Isotope
 var iso = new Isotope( '.grid', {
@@ -112,3 +115,6 @@ var iso = new Isotope( '.grid', {
       opacity: 1
     }
   })
+  
+  
+});
