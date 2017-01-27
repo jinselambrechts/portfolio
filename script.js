@@ -1,5 +1,4 @@
-$(window).load(function(){
-  
+
 // external js: isotope.pkgd.js
 
 
@@ -93,5 +92,4 @@ var iso = new Isotope( '.grid', {
     }
   })
   
-  
-});
+ 
