@@ -12,8 +12,7 @@ var iso = new Isotope( '.grid', {
     // use element for option
     columnWidth: '.grid-sizer',
     fitWidth: true,
-    /*gutter: 10*/
-    gutter: '.gutter-sizer'
+    gutter: 300
   },
   stagger: 50,
   transitionDuration: '1s',
