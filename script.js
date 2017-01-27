@@ -28,10 +28,6 @@ var iso = new Isotope( '.grid', {
     movie: '.movie'*/
   });
 
-
-
-
-
   // filter functions
   var filterFns = {
     // show if number is greater than 50
